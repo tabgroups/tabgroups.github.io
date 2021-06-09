@@ -1,0 +1,11 @@
+{
+  "name": "Auto Collapse for tab groups",
+  "description": "Once you start using tabs from a new tab group, the previous one will get collapsed.",
+  "icons": {"128": "collapse-icon.png"},
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabGroups", "storage"]
+}
