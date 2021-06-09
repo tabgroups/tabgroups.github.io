@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TabGroups</title>
+    <style>
+        body{
+            font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+            font-size: 16px;
+        }
+        img {
+            display: block;
+            width: 80%;
+            max-width: 640px;
+        }
+        .container { width: 100%; max-width: 640px; margin: 0 auto; }
+        span[data-x="1"]:before{ content: "[at]"; display: inline-block; }
+        h3{color: #555; font-weight: normal; border-bottom: 1px solid #999;}
+        hr{margin-top: 5em;}
+    </style>
 </head>
 <body>
     <h1 style="text-align: center">TabGroups for Chrome</h1>
-    <center><img src="img-main.png" alt=""/></center>
+    <center><img src="img-main.png" alt=""/>
+    <br>
+    </center>
+    <div class="container">
+        <strong>Auto Collapse</strong> makes the tab bar less distracting by collapsing unfocused tab groups.
+        When you click on an ungrouped tab or a tab within one group, all other tab groups get collapsed.
+        <br><br>
+        <strong>⚡ For feature requests</strong>, contact tabgroups <span data-x="1"></span> menoric.com
+        <br><br>
+        <strong>🔒 Privacy: </strong> The extension does not have access to the websites you visit or the content
+        of the tabs. It only has permission to rearrange tabs. It does not collect any usage data or access patterns.
+        <hr>
+        &copy; 2021
+    </div>
 </body>
 </html>
